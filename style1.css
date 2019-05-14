@@ -1,0 +1,179 @@
+*{
+	padding: 0.074vw;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body
+{
+	background: #707c78;
+}
+
+html 
+{
+  scroll-behavior: smooth;
+}
+
+.container
+{
+	max-width: 96vw;
+	margin: 0 auto;
+	background: #4e5b56;
+	border-radius:1.1vw;
+	padding: 0.74vw;
+	margin-top: 0.74vw;
+	margin-bottom:0.74vw;
+}
+
+img
+{
+	border-radius: 2.58vw;
+}
+
+
+
+.nav
+{
+	width: 96vw;
+	margin: 0 auto;
+}
+
+.nav ol
+{
+	position: fixed;
+	background: #161817 ;
+	width: 96vw;
+	border-radius: 2.58vw;
+}
+
+.nav ol li 
+{
+	display: inline-block; 
+	padding-bottom: 0.9vw;	
+	padding-top: 0.9vw;
+	padding-left:1.1vw;
+	padding-right: 2.2vw;
+}
+
+.nav ol li a
+{
+	text-decoration: none;
+	font-size: 1.6vw;
+	font-style: italic;
+	font-weight: bold;
+	color:violet;
+	text-shadow: 0.45vw 0.3vw 0.15vw brown;
+}
+
+.nav ol li a:hover
+{
+	color:white;   
+	text-shadow: 0.45vw 0.3vw 0.22vw  #c2c7c7  ;     
+}
+
+.logo
+{	
+	background: url(images/logo.jpg);
+	height:21vw;
+	margin:0 auto;
+	width: 96vw;
+	background-size: 96vw 21vw;
+	border-radius:1.1vw;
+	margin-top: 2.73vw;
+}
+
+.int 
+{
+	font-family: 'Sofia', arial;
+	color: #00f158 ;
+	padding-left: 0.74vw;
+	font-size: 1.7vw;
+	word-spacing: 0.15vw;
+	letter-spacing: 0.074vw;
+}
+
+h2
+{
+	
+	font-family: 'Vollkorn', serif;
+	font-size:2.5vw;
+	word-spacing: 0.22vw;
+	letter-spacing: 0.22vw;
+	text-align: center;
+	padding-bottom: 0.74vw;
+	text-shadow: 0.3vw 0.22vw 0.22vw #a0ecbc;
+	color: #104122 ;
+}
+
+h3
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.3vw;
+	letter-spacing: 0.147vw;
+	text-decoration: underline;
+}
+
+h3:hover
+{
+	transform: scale(1.01,1.01);
+}
+
+.eve img
+{
+	height: 15vw;
+	width: 30vw;
+	padding:0.37vw 1.47vw;
+}
+
+.container a img
+{
+	float: right;
+	height: 7.37vw;
+	width: 22.1vw;
+	margin-right:3.68vw;
+	margin-top: 1.33vw;
+	padding: 1.47vw;
+}
+
+.container a img:hover
+{
+	transform: scale(1.05,1.05);
+}
+
+.foot 
+{
+	font-size: 2vw;
+	color: #a9bee8 ;
+}
+
+.foot:hover
+{
+	transform: scale(1.01,1.01);
+}
+
+.copy
+{
+	text-align: center;
+	font-style: italic;
+	font-size: 2vw;
+}
+
+h2:hover,.copy:hover
+{
+	transform: scale(1.05,1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
